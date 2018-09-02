@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  web:
+    build: .
+    stdin_open: true
+    tty: true
+    restart: always
+    ports:
+      - '127.0.0.1:8080:80'
+    volumes:
+      - ./source:/var/www/html
+      - ./data:/var/www/html/p
+      - ./logs:/var/log/apache2
