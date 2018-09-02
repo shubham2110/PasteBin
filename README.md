@@ -2,7 +2,7 @@
 
 #### Try
 ```
-echo 'Follow me: https://github.com/WangYihang' | curl 'f=@-' https://paste.sniperoj.com
+echo 'Follow me: https://github.com/WangYihang' | curl -F 'f=@-' https://paste.sniperoj.com
 ```
 
 #### Install
