@@ -1,6 +1,6 @@
 # PasteBin in command line
 
-#### Try
+#### Get start
 ```
 echo 'Follow me: https://github.com/WangYihang' | curl -F 'f=@-' https://paste.sniperoj.com
 ```
