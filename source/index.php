@@ -27,4 +27,7 @@ if (strpos($user_agent, "curl/") == 0 && !empty($_FILES['f'])) {
 	echo "$url\n";
 }else{
 	echo "ifconfig | curl -F 'f=@-' $host\n";
+	echo "</br>\n";
+	echo "<a href='https://github.com/WangYihang/Pastebin'>GitHub</a>\n";
+	echo "</br>\n";
 }
