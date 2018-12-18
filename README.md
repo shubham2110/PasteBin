@@ -11,7 +11,7 @@ git clone https://github.com/WangYihang/PasteBin
 cd PasteBin
 mkdir data
 chmod o+w ./data
-docker-compose up -d
+sudo docker-compose up -d
 ```
 
 #### Usage
