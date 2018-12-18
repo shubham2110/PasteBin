@@ -9,6 +9,7 @@ echo 'Follow me: https://github.com/WangYihang' | curl -F 'f=@-' https://paste.s
 ```
 git clone https://github.com/WangYihang/PasteBin
 cd PasteBin
+mkdir data
 chmod o+w ./data
 docker-compose up -d
 ```
